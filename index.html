@@ -47,8 +47,13 @@
 
 
     <!--============================ CORPO DA PÁGINA  ==========================-->
-
-    <div id="container">
+    
+        <div class="popup">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam doloribus ipsa laborum sed, esse quasi odit quia excepturi iure iusto quidem autem quis in? Odio, qui doloribus? Architecto, neque vitae?
+            <button id="close-popup" onclick="hide()">batata</button>
+        </div>
+    <div class="wrapper">
+    <div id="container" >
 
         <header id="topo">
             <h2>Projetos Front-End</h2>
@@ -67,6 +72,7 @@
                             <h5>Detective Comics</h5>
                             <time datetime=”2022-09-29”>Setembro 2022</time>
                             <p>teste apenas</p>
+                            <button id="open-popup" onclick="active()">batata</button>
 
                             <div id="teste">
                                 <a href="https://detectivecomics.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></i></a>
@@ -100,13 +106,13 @@
                             </div> -->
                         </div>
                     </div>
-
-                   
+                    
                 </section>
-
+                
             </main>
-
+            
         </div>
+        
 
 
 
@@ -137,10 +143,12 @@
 
 
     </footer>
-
+    </div>
     <script src="/assets/scripts/exp.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="/assets/scripts/reveal.js"></script>
+    <script src="/assets/script/modal.js"></script>
+    
 </body>
 
 </html>
