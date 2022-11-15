@@ -98,6 +98,8 @@ nav {
   font-size: 1.1rem;
   background-color: #0e0e0e;
   border-radius: 6px;
+  animation: troca-cor-container 3s infinite ease-in-out;
+  font-weight: 600;
 }
 
 #menu a:hover {
@@ -216,14 +218,13 @@ main:last-child {
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.04);
   border: 1px solid #fff;
 }
 
-.card:last-child h1 {
-  align-self: center;
-  justify-self: center;
+.card:nth-child(3) h1 {
   font-size: 2.5rem;
+  margin: auto;
 }
 time {
   font-size: 0.8rem;
@@ -242,9 +243,12 @@ time {
   flex-direction: column;
   align-items: flex-start;
 }
+.descricao-card p {
+  margin: 15px 0;
+}
 
 #teste {
-  height: 30px;
+  min-height: 30px;
   margin-top: 10%;
 
   justify-self: flex-end;
@@ -257,8 +261,8 @@ time {
   color: white;
   margin: 0;
   padding: 0;
+  margin-left: 10px;
 }
-
 #projeto1 {
   background-image: url(/assets/img/dc.png);
   background-size: contain;
@@ -287,13 +291,23 @@ time {
   margin: 0 10px;
   border-radius: 15px;
 }
+#projeto4 {
+  background-image: url(/assets/img/projetos.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 35%;
+  height: 40%;
+  margin: 0 42px;
+  border-radius: 15px;
+}
 
 /*--- SEÇÃO 1 --*/
 .icons {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin: 20px 0;
   justify-content: space-between;
 }
 
@@ -321,44 +335,62 @@ time {
   margin: auto 20px;
 }
 
-
-
-
 /*--========================== IMAGENS =========================--*/
 
 /*--========================== MODAL =========================--*/
 
-.blur{
+.wrapper#blur.active {
   filter: blur(20px);
-  -webkit-transition: opacity 400ms ease-in;
-  -moz-transition: opacity 400ms ease-in;
-  transition: opacity 400ms ease-in;
 }
-
-.popup{
+.popup,
+.popup2,
+.popup3,
+.popup4 {
   position: fixed;
-  top: 30%;
-  left: 23%;
-  background-color: orangered;
-  border-radius: 20px;
-  padding: 20px;
-  margin: 0 auto;
-  width: 50%;
-  height: 50vh;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  visibility: hidden;
   opacity: 0;
-  z-index: 999;
-  overflow-x: hidden;
-  -webkit-transition: opacity 400ms ease-in;
-  -moz-transition: opacity 400ms ease-in;
-  transition: opacity 400ms ease-in;
+  transition: 0.5s;
+  background-color: #4d4d4d;
+  padding: 20px;
+  border-radius: 20px;
+  height: 225px;
+  border: 1px solid #0e0e0e;
+  animation: troca-cor-modal 3s infinite ease-in-out;
+  color: rgb(197, 197, 197);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#open-popup{
-  z-index: 999;
+.popup.active,
+.popup2.active,
+.popup3.active,
+.popup4.active {
+  top: 50%;
+  visibility: visible;
+  opacity: 1;
+  transform: 0.5s;
 }
 
-
-
+.btn-modal {
+  font-weight: 600;
+  color: #fff;
+  background-color: #111111;
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+  padding: 10px 20px;
+  animation: troca-cor-container 3s infinite ease-in-out;
+}
+.btn{
+ padding: 10px 15px;
+}
 /*--========================== KEYFRAMES =========================--*/
 
 @keyframes troca-cor-container {
@@ -372,6 +404,19 @@ time {
 
   100% {
     border: 1.5px solid rgba(255, 0, 140, 0.9);
+  }
+}
+@keyframes troca-cor-modal {
+  0% {
+    box-shadow: 0 0 20px rgba(255, 0, 140, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(0, 17, 255, 0.4);
+  }
+
+  100% {
+    box-shadow: 0 0 20px rgba(255, 0, 140, 0.4);
   }
 }
 

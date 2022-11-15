@@ -31,124 +31,166 @@
 </head>
 
 <body>
-    <nav>
-        <!--=======================  BARRA DE NAVEGAÇÃO  =======================-->
-        <div id="logo">
-            <div id="menu">
-                <ul>
-                    <li><a href="https://anarodrigues.vercel.app/">Portifólio</a></li>
-                </ul>
+    <div class="popup">
+        <h3>LOREM IPSUM </h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam doloribus ipsa laborum sed, esse quasi odit
+        quia excepturi iure iusto quidem autem quis in? Odio, qui doloribus? Architecto, neque vitae?
+
+        <div class="icons">
+            <span class="icon1"></span>
+            <span class="icon2"></span>
+            <span class="icon3"></span>
+        </div>
+
+        <button class="btn-modal" onclick="toggle()">Fechar</button>
+    </div>
+
+    <div class="popup2">
+        <h3>LOREM IPSUM </h3>
+        TESTE , qui doloribus? Architecto, neque vitae?
+
+        <button class="btn-modal" onclick="toggle2()">Fechar</button>
+    </div>
+
+    <!---->
+
+    <div class="popup4">
+        <h3>LOREM IPSUM </h3>
+        TESTE , qui doloribus? Architecto, neque vitae?
+
+        <button class="btn-modal" onclick="toggle4()">Fechar</button>
+    </div>
+
+
+    <div class="wrapper" id="blur">
+        <nav>
+            <!--=======================  BARRA DE NAVEGAÇÃO  =======================-->
+            <div id="logo">
+                <div id="menu">
+                    <ul>
+                        <li><a href="https://anarodrigues.vercel.app/">Portifólio</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
 
-    </nav>
-    <!--======================= END BARRA DE NAVEGAÇÃO  =======================-->
-
+        </nav>
+        <!--======================= END BARRA DE NAVEGAÇÃO  =======================-->
 
 
-    <!--============================ CORPO DA PÁGINA  ==========================-->
-    
-        <div class="popup">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam doloribus ipsa laborum sed, esse quasi odit quia excepturi iure iusto quidem autem quis in? Odio, qui doloribus? Architecto, neque vitae?
-            <button id="close-popup" onclick="hide()">batata</button>
-        </div>
-    <div class="wrapper">
-    <div id="container" >
 
-        <header id="topo">
-            <h2>Projetos Front-End</h2>
-            <h1>Ana Rodrigues</h2>
-        </header>
+        <!--============================ CORPO DA PÁGINA  ==========================-->
 
-        <!-------- CONTEÚDO ---------->
-        <div id="main">
-            <main class="secao-principal">
 
-                <section id="container-cards">
 
-                    <div class="card">
-                        <div id="projeto1"></div>
-                        <div class="descricao-card">
-                            <h5>Detective Comics</h5>
-                            <time datetime=”2022-09-29”>Setembro 2022</time>
-                            <p>teste apenas</p>
-                            <button id="open-popup" onclick="active()">batata</button>
+        <div id="container">
 
-                            <div id="teste">
-                                <a href="https://detectivecomics.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></i></a>
+            <header id="topo">
+                <h2>Projetos Front-End</h2>
+                <h1>Ana Rodrigues</h2>
+            </header>
+
+            <!-------- CONTEÚDO ---------->
+            <div id="main">
+                <main class="secao-principal">
+
+                    <section id="container-cards">
+
+                        <div class="card">
+                            <div id="projeto1"></div>
+                            <div class="descricao-card">
+                                <h5>Detective Comics</h5>
+                                <time datetime=”2022-09-29”>Setembro 2022</time>
+                                <p>Pequena descricao do projeto </p>
+                                
+                                <div id="teste">
+                                        <button class="btn-modal" onclick="toggle()">Detalhes</button>
+                                    <a href="https://detectivecomics.vercel.app/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></i></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="card">
-                        <div id="projeto2"></div>
-                        <div class="descricao-card">
-                            <h5>Portifólio pessoal</h5>
-                            <time datetime=”2022-10-03”>Outubro 2022</time>
-                            <p>teste apenas</p>
-
-                            <div id="teste">
-                                <a href="https://anarodrigues.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></i></a>
+                        <div class="card">
+                            <div id="projeto2"></div>
+                            <div class="descricao-card">
+                                <h5>Portifólio pessoal</h5>
+                                <time datetime=”2022-10-03”>Outubro 2022</time>
+                                <p>Pequena descricao do projeto</p>
+                                
+                                <div id="teste">
+                                    <button class="btn-modal btn" onclick="toggle2()">Detalhes</button>
+                                    <a href="https://anarodrigues.vercel.app/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></i></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="card">
-                        <div id="projeto3"></div>
-                        <div class="descricao-card">
-                            <h5>Marvel Studios</h5>
-                            <time datetime=”2022-10-29”>Outubro 2022</time>
-                            <h1>EM BREVE</h1>
-                            <!-- <p>teste apenas</p> 
-
-                            <div id="teste">
-                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></i></a>
-                            </div> -->
+                        <div class="card">
+                            <div id="projeto3"></div>
+                            <div class="descricao-card">
+                                <h5>Marvel Studios</h5>
+                                <time datetime=”2022-10-29”>Outubro 2022</time>
+                                <h1>EM BREVE</h1>
+                            </div>
                         </div>
-                    </div>
-                    
-                </section>
-                
-            </main>
-            
+
+                        <div class="card">
+                            <div id="projeto4"></div>
+                            <div class="descricao-card">
+                                <h5>Website de projetos</h5>
+                                <time datetime=”2022-11-13”>Novembro 2022</time>
+                                <p>Pequena descricao do projeto</p>
+                                
+                                <div id="teste">
+                                    <button class="btn-modal btn" onclick="toggle2()">Detalhes</button>
+                                    <a href="https://anaprojetos.vercel.app/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square fa-2x"></i></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                </main>
+
+            </div>
+
+
+
+
+
         </div>
-        
+
+        <!--============================ RODAPÉ  ==========================-->
+
+        <footer class="rodape ">
+
+            <p>Developed by
+
+                <a href="https://github.com/devanarodrigues">
+                    <span style="color: rgba(255, 0, 140, 0.9);">
+                        Ana
+                    </span>
+                    <span style="color: rgba(0, 17, 255, 0.9);">
+                        Rodrigues
+                    </span>
+                </a>
+                - 2022
+            <div class="github">
+                <a href="https://github.com/devanarodrigues/devanarodrigues.github.io">
+                    <i class="fa-brands fa-github fa-2x"></i>
+                </a>
+            </div>
+            </p>
 
 
-
-        
-    </div> 
-
-    <!--============================ RODAPÉ  ==========================-->
-
-    <footer class="rodape ">
-
-        <p>Developed by
-
-            <a href="https://github.com/devanarodrigues">
-                <span style="color: rgba(255, 0, 140, 0.9);">
-                    Ana
-                </span>
-                <span style="color: rgba(0, 17, 255, 0.9);">
-                    Rodrigues
-                </span>
-            </a>
-            - 2022
-        <div class="github">
-            <a href="https://github.com/devanarodrigues/devanarodrigues.github.io">
-                <i class="fa-brands fa-github fa-2x"></i>
-            </a>
-        </div>
-        </p>
-
-
-    </footer>
+        </footer>
     </div>
     <script src="/assets/scripts/exp.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="/assets/scripts/reveal.js"></script>
     <script src="/assets/script/modal.js"></script>
-    
+
 </body>
 
 </html>
