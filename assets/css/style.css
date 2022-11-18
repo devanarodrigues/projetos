@@ -236,8 +236,9 @@ time {
   width: 52%;
   border-left: 1px solid rgba(255, 255, 255, 0.178);
   padding: 10px 20px;
-  height: 80%;
+  height: 85%;
   margin: 10px;
+  border: 1px solid red;
 
   display: flex;
   flex-direction: column;
@@ -245,6 +246,7 @@ time {
 }
 .descricao-card p {
   margin: 15px 0;
+  height: 40%;
 }
 
 #teste {
