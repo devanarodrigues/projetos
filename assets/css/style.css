@@ -13,13 +13,29 @@ body {
   background-color: #000000;
   color: rgb(212, 212, 212);
   overflow-x: hidden;
+  max-height: 100vh;
 }
 
-body::-webkit-scrollbar {
+ body::-webkit-scrollbar {
   width: 0;
   background-color: #000;
+} 
+.popup::-webkit-scrollbar,
+.popup2::-webkit-scrollbar,
+.popup3::-webkit-scrollbar,
+.popup4::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+  border-radius: 40px;
 }
-
+.popup::-webkit-scrollbar-thumb,
+.popup2::-webkit-scrollbar-thumb,
+.popup3::-webkit-scrollbar-thumb,
+.popup4::-webkit-scrollbar-thumb{
+  width: 3px;
+  background-color: rgba(255, 255, 255, 0.144);
+  border-radius: 40px;
+}
 #container {
   display: flex;
   background-color: #111111;
@@ -362,11 +378,13 @@ time {
   background-color: #222222;
   padding: 20px;
   border-radius: 20px;
-  min-height: 50vh;
-  width: 60%;
+  max-height: 95vh;
+  max-width: 60%;
   border: 1px solid #0e0e0e;
   animation: troca-cor-modal 3s infinite ease-in-out;
   color: #fff;
+
+  overflow-y: scroll;
 
   display: flex;
   flex-direction: row;
@@ -1015,9 +1033,12 @@ time {
   }
 }
 @media all and (max-width: 768px) {
-    .popup{
-     overflow:auto; 
-    }
+    .popup,
+    .popup2,
+    .popup3,
+    .popup4{
+     
+    
 }
 
 @media (min-width: 1441px) {
