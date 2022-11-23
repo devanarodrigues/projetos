@@ -359,18 +359,37 @@ time {
   visibility: hidden;
   opacity: 0;
   transition: 0.5s;
-  background-color: #4d4d4d;
+  background-color: #222222;
   padding: 20px;
   border-radius: 20px;
-  height: 225px;
+  min-height: 50%;
+  width: 60%;
   border: 1px solid #0e0e0e;
   animation: troca-cor-modal 3s infinite ease-in-out;
-  color: rgb(197, 197, 197);
+  color: #fff;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+.popup h3,
+.popup2 h3,
+.popup3 h3,
+.popup4 h3{
+  margin: 20px auto 30px auto;
+  font-family: 'righteous';
+  letter-spacing: .5rem;
+  font-size: 1.5em;
+  text-align: center;
+}
+.popup p,
+.popup2 p,
+.popup3 p,
+.popup4 p{
+  font-family: 'sarala';
+  word-wrap: break-word;
 }
 
 .popup.active,
@@ -392,10 +411,19 @@ time {
   border-radius: 7px;
   padding: 10px 20px;
   animation: troca-cor-container 3s infinite ease-in-out;
+ 
 }
 .btn{
- padding: 10px 15px;
+  padding: 10px 15px;
 }
+.btn-codigofonte{
+  text-align: center;
+}
+.centralizar{
+  margin: auto 0;
+}
+
+
 /*--========================== KEYFRAMES =========================--*/
 
 @keyframes troca-cor-container {
