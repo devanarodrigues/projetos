@@ -532,6 +532,7 @@ time {
   width: 32px;
   height: 32px;
   text-decoration: none;
+  color: var(--fa-primary-color);
 }
 
 .rodape p {
