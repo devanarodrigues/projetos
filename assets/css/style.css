@@ -1,10 +1,12 @@
 /*--======================= FORMATAÇÕES GERAIS =======================--*/
 
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
 
 * {
   margin: 0;
   font-family: "century gothic", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -197,6 +199,7 @@ main:last-child {
   justify-content: center;
 }
 
+
 .card {
   background-color: rgba(255, 255, 255, 0.041);
   width: 100%;
@@ -246,6 +249,8 @@ time {
 .descricao-card p {
   margin: 15px 0;
   height: 40%;
+  font-size: 1em;
+  font-family: 'sarala';
 }
 
 #open-details {
@@ -340,7 +345,7 @@ time {
 /*--========================== MODAL =========================--*/
 
 .wrapper#blur.active {
-  filter: blur(20px);
+  filter: brightness(40%) blur(20px);
 }
 .popup,
 .popup2,
