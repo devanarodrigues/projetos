@@ -593,24 +593,27 @@ time {
 
 /*--========================== RESPONSIVIDADE ==========================--*/
 
-@media (max-width:1024px){
+@media (max-width:1024px) {
+
   .popup,
-    .popup2,
-    .popup3,
-    .popup4{
-      width: 75%;
-    }
+  .popup2,
+  .popup3,
+  .popup4 {
+    width: 75%;
+  }
 }
+
 @media (max-width: 962px) {
   .card {
     flex-direction: column;
   }
-    .popup,
-    .popup2,
-    .popup3,
-    .popup4 {
-      width: 100%;
-    }
+
+  .popup,
+  .popup2,
+  .popup3,
+  .popup4 {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 923px) {
@@ -714,6 +717,12 @@ time {
     margin: 10px auto;
   }
 }
+@media (max-width: 453px){
+  #menu a {
+      padding: 4px 7px;
+      font-size: .7em;
+    }
+}
 
 @media (max-width: 691px) {
   .card {
@@ -742,6 +751,10 @@ time {
 }
 
 @media (max-width: 425px) {
+  #logo {
+    background-position: 20% 80%;
+  }
+
   #container {
     width: 95%;
   }
@@ -763,7 +776,7 @@ time {
   }
 
   #menu ul {
-    margin-right: 1px;
+    margin-right: 5px;
   }
 
   #menu li {
@@ -785,10 +798,12 @@ time {
   #projeto4 {
     height: 15%;
   }
-  .descricao-card p{
+
+  .descricao-card p {
     height: 50%;
   }
-  .descricao-card p:nth-child(4){
+
+  .descricao-card p:nth-child(4) {
     height: 20%;
   }
 
@@ -796,7 +811,8 @@ time {
     min-height: 1%;
     margin-right: 20px;
   }
-  #open-details4{
+
+  #open-details4 {
     margin-top: 130px;
   }
 }
