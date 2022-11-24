@@ -280,7 +280,7 @@ time {
   font-family: 'sarala';
 }
 
-#open-details {
+.open-details {
   margin-top: 10%;
 
   justify-self: flex-end;
@@ -290,7 +290,7 @@ time {
   justify-content: end;
 }
 
-#open-details a {
+.open-details a {
   color: white;
   margin: 0;
   padding: 0;
@@ -413,7 +413,7 @@ time {
   border-radius: 7px;
   padding: 10px 20px;
   animation: troca-cor-container 3s infinite ease-in-out;
-
+  margin: 0 10px;
 }
 
 .btn {
@@ -423,7 +423,9 @@ time {
 .btn-codigofonte {
   text-align: center;
 }
-
+.btn-modal.btn {
+  margin: 0 10px;
+}
 .centralizar {
   margin: auto 0;
 }
@@ -557,6 +559,8 @@ time {
   height: auto;
   background-color: #0e0e0e;
   text-align: center;
+  font-size: .9em;
+  padding-top: 10px;
 
   display: flex;
   justify-content: center;
@@ -638,7 +642,7 @@ time {
 
   }
 
-  #open-details {
+  .open-details {
     margin: auto auto;
   }
 
@@ -713,7 +717,7 @@ time {
     margin-right: 20px;
   }
 
-  #open-details {
+  .open-details {
     margin: 10px auto;
   }
 }
@@ -745,7 +749,7 @@ time {
     margin-right: 20px;
   }
 
-  #open-details {
+  .open-details {
     margin: 10px auto;
   }
 }
@@ -811,8 +815,20 @@ time {
     min-height: 1%;
     margin-right: 20px;
   }
-
-  #open-details4 {
+  .open-details.testedetails{
     margin-top: 130px;
+    
+      justify-self: flex-end;
+      align-self: flex-end;
+    
+      display: flex;
+      justify-content: end;
   }
+  .btn-modal.btn{
+    margin: 0 10px;
+  }
+  .btn-modal{
+    margin: 0 10px;
+  }
+
 }
