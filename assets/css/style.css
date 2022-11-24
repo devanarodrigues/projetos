@@ -360,7 +360,8 @@ time {
   padding: 20px;
   border-radius: 20px;
   max-height: 95vh;
-  max-width: 60%;
+  max-width: 95%;
+  width: 60%;
   border: 1px solid #0e0e0e;
   animation: troca-cor-modal 3s infinite ease-in-out;
   color: #fff;
@@ -592,15 +593,15 @@ time {
 
 /*--========================== RESPONSIVIDADE ==========================--*/
 
-@media (max-width:1024){
+@media (max-width:1024px){
   .popup,
     .popup2,
     .popup3,
     .popup4{
-      width: 98%;
+      width: 75%;
     }
 }
-@media screen and (max-width: 962px) {
+@media (max-width: 962px) {
   .card {
     flex-direction: column;
   }
