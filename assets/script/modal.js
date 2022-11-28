@@ -22,3 +22,9 @@ function toggle4(){
     var popup = document.querySelector('.popup4')
     popup.classList.toggle('active')
 }
+function toggle5(){
+    var blur = document.getElementById('blur')
+    blur.classList.toggle('active')
+    var popup = document.querySelector('.popup5')
+    popup.classList.toggle('active')
+}

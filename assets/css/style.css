@@ -26,7 +26,8 @@ body::-webkit-scrollbar {
 .popup::-webkit-scrollbar,
 .popup2::-webkit-scrollbar,
 .popup3::-webkit-scrollbar,
-.popup4::-webkit-scrollbar {
+.popup4::-webkit-scrollbar, 
+.popup5::-webkit-scrollbar {
   width: 5px;
   background-color: transparent;
   border-radius: 40px;
@@ -35,7 +36,8 @@ body::-webkit-scrollbar {
 .popup::-webkit-scrollbar-thumb,
 .popup2::-webkit-scrollbar-thumb,
 .popup3::-webkit-scrollbar-thumb,
-.popup4::-webkit-scrollbar-thumb {
+.popup4::-webkit-scrollbar-thumb 
+.popup5::-webkit-scrollbar-thumb {
   width: 3px;
   background-color: rgba(255, 255, 255, 0.144);
   border-radius: 40px;
@@ -337,6 +339,16 @@ time {
   margin: auto 42px;
 }
 
+#projeto5 {
+  background-image: url(/assets/img/hour-simulator.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 35%;
+  height: 100%;
+  margin: auto 42px;
+}
+
 /*--========================== MODAL =========================--*/
 
 .wrapper#blur.active {
@@ -347,7 +359,8 @@ time {
 .popup,
 .popup2,
 .popup3,
-.popup4 {
+.popup4, 
+.popup5 {
   position: fixed;
   top: 90%;
   left: 50%;
@@ -378,7 +391,8 @@ time {
 .popup h3,
 .popup2 h3,
 .popup3 h3,
-.popup4 h3 {
+.popup4 h3, 
+.popup5 h3 {
   margin: 20px auto 30px auto;
   font-family: 'righteous';
   letter-spacing: .5rem;
@@ -389,7 +403,8 @@ time {
 .popup p,
 .popup2 p,
 .popup3 p,
-.popup4 p {
+.popup4 p, 
+.popup5 p {
   font-family: 'sarala';
   word-wrap: break-word;
 }
@@ -397,7 +412,8 @@ time {
 .popup.active,
 .popup2.active,
 .popup3.active,
-.popup4.active {
+.popup4.active, 
+.popup5.active {
   top: 50%;
   visibility: visible;
   opacity: 1;
@@ -423,9 +439,11 @@ time {
 .btn-codigofonte {
   text-align: center;
 }
+
 .btn-modal.btn {
   margin: 0 10px;
 }
+
 .centralizar {
   margin: auto 0;
 }
@@ -602,7 +620,8 @@ time {
   .popup,
   .popup2,
   .popup3,
-  .popup4 {
+  .popup4,
+  .popup5 {
     width: 75%;
   }
 }
@@ -615,7 +634,8 @@ time {
   .popup,
   .popup2,
   .popup3,
-  .popup4 {
+  .popup4,
+  .popup5 {
     width: 100%;
   }
 }
@@ -653,7 +673,8 @@ time {
   #projeto1,
   #projeto2,
   #projeto3,
-  #projeto4 {
+  #projeto4,
+  #projeto5 {
     width: 95%;
     height: 382px;
     margin: 0;
@@ -682,7 +703,8 @@ time {
   #projeto1,
   #projeto2,
   #projeto3,
-  #projeto4 {
+  #projeto4,
+  #projeto5 {
     width: 95%;
     height: 312px;
     margin: 0;
@@ -708,7 +730,8 @@ time {
   #projeto1,
   #projeto2,
   #projeto3,
-  #projeto4 {
+  #projeto4,
+  #projeto5 {
     min-height: 45%;
   }
 
@@ -721,11 +744,12 @@ time {
     margin: 10px auto;
   }
 }
-@media (max-width: 453px){
+
+@media (max-width: 453px) {
   #menu a {
-      padding: 4px 7px;
-      font-size: .7em;
-    }
+    padding: 4px 7px;
+    font-size: .7em;
+  }
 }
 
 @media (max-width: 691px) {
@@ -740,7 +764,8 @@ time {
   #projeto1,
   #projeto2,
   #projeto3,
-  #projeto4 {
+  #projeto4,
+  #projeto5 {
     min-height: 35%;
   }
 
@@ -799,7 +824,8 @@ time {
   #projeto1,
   #projeto2,
   #projeto3,
-  #projeto4 {
+  #projeto4,
+  #projeto5 {
     height: 15%;
   }
 
@@ -815,19 +841,22 @@ time {
     min-height: 1%;
     margin-right: 20px;
   }
-  .open-details.testedetails{
+
+  .open-details.testedetails {
     margin-top: 130px;
-    
-      justify-self: flex-end;
-      align-self: flex-end;
-    
-      display: flex;
-      justify-content: end;
+
+    justify-self: flex-end;
+    align-self: flex-end;
+
+    display: flex;
+    justify-content: end;
   }
-  .btn-modal.btn{
+
+  .btn-modal.btn {
     margin: 0 10px;
   }
-  .btn-modal{
+
+  .btn-modal {
     margin: 0 10px;
   }
 
