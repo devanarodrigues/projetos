@@ -1,9 +1,9 @@
-// function toggle(){
-//     var blur = document.getElementById('blur')
-//     blur.classList.toggle('active')
-//     var popup = document.querySelector('.popup')
-//     popup.classList.toggle('active')
-// }
+function toggle(){
+    var blur = document.getElementById('blur')
+    blur.classList.toggle('active')
+    var popup = document.querySelector('.popup')
+    popup.classList.toggle('active')
+}
 function toggle2(){
     var blur = document.getElementById('blur')
     blur.classList.toggle('active')
@@ -29,18 +29,24 @@ function toggle5(){
     popup.classList.toggle('active')
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 // criar function universal para poder fechar qualquer popup
 
 <<<<<<< HEAD
 const id1 = new toggle(class) // id em string
+=======
 
-function toggle(class){
- var blur = document.getElementById('blur')
-    blur.classList.toggle('active')
-    var popup = document.getElementByClass(class) // ex. id: "popup1"
-    popup.classList.toggle('active')
-}
+// id1 = new toggle(id) // id em string
+>>>>>>> parent of 676bfd4 (teste2 mudanças)
 
+// function toggle(id){
+//  var blur = document.getElementById('blur')
+//     blur.classList.toggle('active')
+//     var popup = document.getElementById(id) // ex. id: "popup1"
+//     popup.classList.toggle('active')
+// }
+
+<<<<<<< HEAD
 const botao1 = document.getElementById("botao1")
 botao1.addEventListener("click", id1(class))
 =======
@@ -55,3 +61,7 @@ botao1.addEventListener("click", id1(class))
 //     popup.classList.toggle('active')
 // }
 >>>>>>> parent of ed1de55 (anotação de mudanças)
+=======
+// const botao1 = document.getElementById("botao1")
+// botao1.addEventListener("click", id1(id))
+>>>>>>> parent of 676bfd4 (teste2 mudanças)
