@@ -34,11 +34,15 @@ function toggle5(){
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 const id1 = new toggle(class) // id em string
 =======
 =======
 id1 = new toggle(class) // id em string
 >>>>>>> parent of e4785f7 (const id1)
+=======
+const id1 = new toggle() // id em string
+>>>>>>> parent of 62b03d0 (toggle(class))
 
 // id1 = new toggle(id) // id em string
 >>>>>>> parent of 676bfd4 (teste2 mudanças)
