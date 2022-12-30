@@ -30,7 +30,7 @@ function toggle5(){
 }
 // criar function universal para poder fechar qualquer popup
 
-id1 = new toggle(class) // id em string
+const id1 = new toggle(class) // id em string
 
 function toggle(class){
  var blur = document.getElementById('blur')
