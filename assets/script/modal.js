@@ -33,8 +33,12 @@ function toggle5(){
 // criar function universal para poder fechar qualquer popup
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 const id1 = new toggle(class) // id em string
 =======
+=======
+id1 = new toggle(class) // id em string
+>>>>>>> parent of e4785f7 (const id1)
 
 // id1 = new toggle(id) // id em string
 >>>>>>> parent of 676bfd4 (teste2 mudanças)
