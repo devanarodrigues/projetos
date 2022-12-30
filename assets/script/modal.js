@@ -31,6 +31,7 @@ function toggle5(){
 <<<<<<< HEAD
 // criar function universal para poder fechar qualquer popup
 
+<<<<<<< HEAD
 const id1 = new toggle(class) // id em string
 
 function toggle(class){
@@ -44,3 +45,13 @@ const botao1 = document.getElementById("botao1")
 botao1.addEventListener("click", id1(class))
 =======
 >>>>>>> parent of c452b34 (função toggle por id)
+=======
+// id1 = new toggle(id)
+
+// function toggle(id){
+//  var blur = document.getElementById('blur')
+//     blur.classList.toggle('active')
+//     var popup = document.getElementById(id)
+//     popup.classList.toggle('active')
+// }
+>>>>>>> parent of ed1de55 (anotação de mudanças)
