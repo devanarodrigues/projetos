@@ -29,11 +29,14 @@ function toggle5(){
     popup.classList.toggle('active')
 }
 
-// id1 = new toggle(id)
+// id1 = new toggle(id) // id em string
 
 // function toggle(id){
 //  var blur = document.getElementById('blur')
 //     blur.classList.toggle('active')
-//     var popup = document.getElementById(id)
+//     var popup = document.getElementById(id) // ex. id: "popup1"
 //     popup.classList.toggle('active')
 // }
+
+// const botao1 = document.getElementById("botao1")
+// botao1.addEventListener("click", id1(id))
