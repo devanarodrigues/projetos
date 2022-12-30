@@ -28,3 +28,12 @@ function toggle5(){
     var popup = document.querySelector('.popup5')
     popup.classList.toggle('active')
 }
+
+// id1 = new toggle(id)
+
+// function toggle(id){
+//  var blur = document.getElementById('blur')
+//     blur.classList.toggle('active')
+//     var popup = document.getElementById(id)
+//     popup.classList.toggle('active')
+// }
