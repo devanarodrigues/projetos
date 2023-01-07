@@ -9,21 +9,15 @@
 
 #### 🌠 Dentro do website você irá encontrar todos os meus projetos, onde está disponibilizado o acesso para cada um deles.<br> Cada projeto possui uma descrição prévia do que se encontra nele. Também é possível exibir detalhes do desenvolvimento, como tecnologias utilizadas, nivel de dificuldade, tempo de desenvolvimento e outros.<br><br>
 
-<!--
+
 ## 💢 Demonstração
-#### - Topo da página
-![] <br>
-#### - 
-![] <br>
-#### -  
-![] <br>
-#### -  
-![] <br>
-#### - Rodapé
-![] <br>
-#### - Responsividade (320x590)
-![] <br>
--->
+#### - Página inicial
+![](assets/img/print-desktop.png)<br>
+![](assets/img/gif-desktop.gif)<br>
+
+#### - Responsividade (Iphone 12 PRO)
+![](assets/img/print-mobile.png)
+![](assets/img/gif-mobile.gif)<br>
 
 #### ⚡ estou aberta a opiniões construtivas, dicas e ideias.
 ## - Obrigada por ler até aqui! 💗
