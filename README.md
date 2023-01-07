@@ -19,5 +19,5 @@
 ![](assets/img/print-mobile.png)
 ![](assets/img/gif-mobile.gif)<br>
 
-#### ⚡ estou aberta a opiniões construtivas, dicas e ideias.
+#### ⚡ Estou aberta a opiniões construtivas, dicas e ideias.
 ## - Obrigada por ler até aqui! 💗
